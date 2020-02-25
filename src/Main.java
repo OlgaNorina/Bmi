@@ -10,5 +10,8 @@ public class Main {
 
         int bmiDef = service.calculate(3900, 160);
         System.out.println("Bmi = " + bmiDef + ": " + service.getStringOfBmi(bmiDef));
+
+        int bmiNul = service.calculate(- 3900, 160);
+        System.out.println("Bmi = " + bmiNul + ": " + service.getStringOfBmi(bmiNul));
     }
 }
